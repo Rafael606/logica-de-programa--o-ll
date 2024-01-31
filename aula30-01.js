@@ -23,10 +23,10 @@
 //     console.log('o resultado da soma é' ,soma);
 // }
 
-// for (i=1; i<=10; i++){
-//     calculo = (2*i);
-//     console.log(`2 * ${i} = ${calculo}`);
-// }
+for (i=1; i<=10; i++){
+    calculo = (2*i);
+    console.log(`2 * ${i} = ${calculo}`);
+}
 
 // for (i=1; i<=10; i--){
 //     calculo = (2*i);
