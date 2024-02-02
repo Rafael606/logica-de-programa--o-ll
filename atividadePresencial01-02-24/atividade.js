@@ -42,14 +42,17 @@ switch (cod) {
         resultado = subtracao(x, y)
         console.log("O resultado da subtração é: ",resultado);
         break;
-    case 3:
-        resultado = divisao(x, y)
-        console.log("O resultado da divisao é: ",resultado);
-        break;
-    case 4:
+    
+     case 3:
         resultado = multiplicacao(x, y)
         console.log("O resultado da multiplicação é: ",resultado);
         break;
+        
+    case 4:
+        resultado = divisao(x, y)
+        console.log("O resultado da divisao é: ",resultado);
+        break;
+    
     default:
         break;
 }
