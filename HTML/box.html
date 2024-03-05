@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio</title>
+    <style>
+        body {
+            margin: auto;
+            width: 800px;
+        }
+
+        .container1 {
+            border: black solid 1px;
+            color: red;
+            text-align: center;
+            margin: 10px;
+            background-color: beige;
+        }
+
+        .div1, .div2, .div3, .div4 { 
+            width: 60px;
+            border: black solid 1px;
+            text-align: center;
+            padding: 10px;
+            margin: 5px;
+        }
+        
+        .div1 {
+            background-color: rgb(238, 103, 103);
+        }
+        .div2 {
+            background-color: rgb(255, 255, 0);
+        }
+        .div3 {
+            background-color: rgb(0, 255, 0);
+        }
+        .div4 {
+            background-color: rgb(115, 86, 194);
+        }
+
+        .container2 {
+            border: black solid 1px;
+            margin: 10px;
+            display: flex;
+            justify-content: space-between;
+            height: 50px;
+            background-color: aqua;
+        }
+
+        .container3 {
+            border: black solid 1px;
+            margin: 10px;
+            display: flex;
+            justify-content: flex-end;
+            height: 50px;
+            background-color: darkgray;
+        }
+
+        .container4 {
+            border: black solid 1px;
+            margin: 10px;
+            display: flex;
+            justify-content: flex-start;
+            height: 50px;
+            background-color: CadetBlue;
+        }
+    </style>
+</head>
+<body>
+    <header class="container1">
+       <h1>Cabeçalho</h1>
+    </header>
+    <section class="container2" >
+        <div class="div1">Div1</div>
+        <div class="div2">Div2</div>
+        <div class="div3">Div3</div>
+        <div class="div4">Div4</div>
+    </section>
+    <section class="container3" >
+        <div class="div1">Div1</div>
+        <div class="div2">Div2</div>
+        <div class="div3">Div3</div>
+    </section>
+    <section class="container4" >
+        <div class="div1">Div1</div>
+        <div class="div2">Div2</div>
+        <div class="div3">Div3</div>
+    </section>
+</body>
+</html>
