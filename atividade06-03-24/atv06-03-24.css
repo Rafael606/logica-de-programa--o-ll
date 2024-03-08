@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    background-color: rgb(28, 28, 66);
+    font-family: Arial, sans-serif;
+    justify-content: center; 
+    align-items: center; 
+}
+
+button {
+  background-color: white;
+  border: none;
+  display: block;
+  margin-top: 10px;
+}
+
+.a4b{
+  background-color: red;
+  padding: 15px;
+}
+
+img{
+  margin: 100px;
+  border: none;
+  display: block;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+
+.container {  
+    margin: 20px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 0.9fr 0.9fr 0.9fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "cabecalho cabecalho cabecalho"
+      "a1 a3 a4"
+      "a2 a3 a5"
+      "a2 . a6";
+  }
+  
+  .cabecalho { 
+    background-color: white;
+    text-align: center;
+    grid-area: cabecalho; 
+}
+  .item {
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  .item li {
+    margin: 0 80px;
+  }
+  
+  .a1 { 
+    background-color: white;
+    padding: 10px;
+    grid-area: a1; }
+  
+  .a2 { 
+    background-color: white;
+    padding: 10px;
+    grid-area: a2; }
+  
+  .a3 { 
+    background-color: white;
+    padding: 10px;
+    grid-area: a3; }
+  
+  .a4 { 
+    background-color: white;
+    padding: 10px;
+    grid-area: a4; }
+  
+  .a5 { 
+    background-color: white;
+    padding: 10px;
+    grid-area: a5; }
+  
+  .a6 { 
+    background-color: white;
+    padding: 10px;
+    grid-area: a6; }
+
+
+
+  
